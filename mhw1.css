@@ -1,0 +1,257 @@
+@media (max-width:500px){
+  body{
+    font: size 14px;
+  }
+}
+
+
+body{
+      font-size: 15px;
+     border: 1px solid orange;
+     margin:0;
+     
+  }
+  
+   #fotoprofilo {
+    position:center;
+    padding-top:300px;
+    z-index: 1;
+    cursor:pointer;
+   border-radius:50%;
+  }
+  
+  #fotoprofilo img  {
+    border: 5px solid PowderBlue;
+    border-radius:50%;
+     
+  }
+  
+  
+  @media (max-width: 500px) {
+    nav a {
+      display: none;
+    }
+  }
+  
+    nav a{
+    font-family: "Almendra SC", serif;
+    position: relative;
+    left: 430px;
+    bottom:100px;
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+    padding: 5px 20px;
+    z-index: 0;
+    
+  }
+  
+  a {
+    cursor:pointer;
+  }
+  
+  a{
+    padding: 10px 15px;
+    border: 1px solid white;
+    border-radius:9px;
+  }
+  a:hover {
+    background-color:Thistle;
+    color: black;
+    text-decoration: underline;
+  }
+  
+  nav .logo{
+    color: #d9d9d9;
+    font-family: "Almendra SC", serif;
+    font-size: 80px;
+    z-index: 0;
+    position:relative;
+    left: 1vw;
+    top :146px;
+  }
+  nav .logo1{
+    color: #d9d9d9;
+    font-family: "Almendra SC", serif;
+    font-size: 80px;
+     z-index: 0;
+    position:relative;
+    left: 1vw;
+     top :109px;
+  }
+  nav .logo2{
+    color: #d9d9d9;
+    font-family: "Almendra SC", serif;
+    font-size: 80px;
+       z-index: 0;
+    position:relative;
+    left: 1vw;
+     top :76px;
+  }
+  
+  @media (max-width:500px){
+    header{
+      height: 300px;
+      line-height: 1.2;
+    }
+  }
+  
+  header:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.35);
+  }
+  
+  header {
+    color: white;
+    background-image: url(https://i.ytimg.com/vi/iXm6oxZGYDs/maxresdefault.jpg);
+    background-size: cover;
+    height: 600px;
+    position:relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+  }
+   header nav {
+    position: relative;
+    top: 0;
+    left: 0;
+    right:0;
+    padding:10px;
+  }
+  
+  
+  footer {
+    background-image: url(https://images.genius.com/6af59d6a3e87a07f11450976aa72b70d.1000x1000x1.png);
+    background-color: rgba(31, 31, 31,0.95);
+    background-size:cover;
+    color: black;
+    padding: 75px;
+    margin-top:1200px;
+  }
+  
+  footer h2{
+    font-family: "Almendra SC", serif;
+    font-size:52px;
+    text-align:center;
+    word-spacing: 7px;
+  }
+  
+  footer p{
+    font-size:22px;
+    color: rgba(0, 0, 0, 1);
+    font-family: "Sedgwick Ave Display", cursive;
+    word-spacing: 5px;
+    position:relative;
+    top:-35px;
+     text-align:center;
+    text-decoration: overline;
+  }
+
+  @media (max-width: 500px) {
+    section {
+      margin: 40px 10px;
+    }
+  }
+  
+  section {
+    margin:200px;
+    text-align: center;
+    border: 1px solid blue;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    
+  }
+  #main h1{
+   font-size:40px;
+     font-family: "Almendra SC", serif;
+  word-spacing:10px;
+  }
+  #main p{
+    font-size:20px;
+       font-family: "Almendra SC", serif;
+    
+  
+  }
+  .frase{
+    border: 3px solid blue;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:space-between;
+    
+  }
+  .frase a{
+    font-family: "Almendra SC", serif;
+    border-radius:20px;
+    border:1px solid black;
+    position:relative;
+    
+  }
+  #main a:hover {
+    background-color:lightgrey;
+    color: black;
+    text-decoration: underline;
+  }
+  
+  .frase{
+    position:relative;
+    font-weight:bold;
+    font-size:25px;
+  height:200px;
+  }
+  
+  #listapreferite{
+    display:flex;
+    justify-content:center;
+    flex-direction:column;
+    align-items:center;
+    border: 1px solid red;
+    padding-top:50px;
+    
+    
+  }
+  #listapreferite img{
+  height:10%;
+  width:30%;
+    padding-bottom:10px;
+    padding-top:30px;
+     
+  }
+  
+  
+  
+  #listapreferite a:hover {
+    background-color:white;
+    color: black;
+    text-decoration: underline;
+  }
+  
+  #listapreferite a{
+    position:center;
+    border: 1px solid black;
+    border-radius:9px;
+    cursor:pointer;
+  }
+  
+    #listapreferite .preferito{
+      width:60%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    border: 1px solid black;
+  
+  }
+  
+  
+    
+  
